@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+        nav{
+            height:100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: gold;  
+        }
+        #menublock,#logoblock{
+            height:100px;
+            width: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #menublock>a{
+            text-decoration: none;
+            color: black;
+        }
+        #logoblock img{
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height:100px;
+            mix-blend-mode: multiply;
+        }
+        #photoblock{
+          height:85vh;
+            background-color:lightgrey;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #child1,#child2,#child3{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height:300px;
+            width: 300px;
+            background-color: white;
+            border-radius:5px;
+            box-shadow:0px 0px 12px rgba(0,0,0,0.5);
+        }
+
+        #photoblock img{
+            height:300px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="logoblock">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.kOFwN_nVEFdSnhgBpbt3GwHaKF?pid=Api&P=0&h=180"/>
+        </div>
+        <div id="menublock" style="width:500px">
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
+                <a href="">CONTACT</a>
+                <a href="">PROFILE</a>
+        </div>
+    </nav>
+    <div id="photoblock">
+        <div id="child1">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.QWhdll1kwA3bj3jEWNX20gHaGy?pid=Api&P=0&h=180"/>
+        </div>
+        <div id="child2">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.Uoprbskm4iO3mT-jBrmC9QHaHa?pid=Api&P=0&h=180"/>
+        </div>
+        <div id="child3">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.xsO4K7RyU47ku2sCedc0KQHaFj?pid=Api&P=0&h=180" width="300"/>
+        </div>
+    </div>
+     <div id="photoblock">
+        <div id="child4">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.QWhdll1kwA3bj3jEWNX20gHaGy?pid=Api&P=0&h=180"/>
+        </div>
+        <div id="child5">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.Uoprbskm4iO3mT-jBrmC9QHaHa?pid=Api&P=0&h=180"/>
+        </div>
+        <div id="child6">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.xsO4K7RyU47ku2sCedc0KQHaFj?pid=Api&P=0&h=180"/>
+        </div>
+    </div>
+
+</body>
+</html>
